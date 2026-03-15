@@ -1,15 +1,13 @@
-## Architecture
 User
  ↓
-AWS EC2 (Amazon Linux)
+AWS EC2
  ↓
 Docker Containers
  ↓
-Kubernetes Cluster (k3s)
+Kubernetes Cluster
  ↓
-Frontend Pods (2 replicas)
-Backend Pods (2 replicas)
+Ingress
  ↓
-Kubernetes Service (NodePort)
+Frontend Service
  ↓
-Browser Access
+Backend Service
