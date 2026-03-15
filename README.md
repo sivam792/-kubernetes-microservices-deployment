@@ -1,13 +1,14 @@
 User
  ↓
-AWS EC2
+EC2 (Amazon Linux)
  ↓
-Docker Containers
+Docker Images (Docker Hub)
  ↓
-Kubernetes Cluster
+Kubernetes (k3s)
  ↓
-Ingress
+Frontend Pods
+Backend Pods
  ↓
-Frontend Service
+Service / Ingress
  ↓
-Backend Service
+Browser
