@@ -1,0 +1,8 @@
+replicaCount: 2
+frontend:
+  image: sivam792/frontend-app
+  tag: latest
+
+backend:
+  image: sivam792/backend-api
+  tag: latest
